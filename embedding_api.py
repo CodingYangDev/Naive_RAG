@@ -34,6 +34,8 @@ def get_embeddings_batch(text: [str],client: OpenAI,model: str) -> list[list[flo
 """
 测试embedding api向量化
 """
+"""
+注释掉测试embedding api的函数
 def embedding_test():
     embedding = get_embedding("你叫什么名字",client,model)
     print(f"embedding: {embedding[:10]}") # 只打印前10个元素
@@ -45,3 +47,4 @@ def embedding_test():
 
 # 调用测试
 embedding_test()
+"""
